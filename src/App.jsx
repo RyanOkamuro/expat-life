@@ -8,15 +8,18 @@ export default function App() {
   const blogPosts = [{
     id: '1',
     title: 'What is an Expat?',
-    blogEntry: 'An Expat, known as an expatriate is someone who lives outside their native country'
+    blogEntry: 'An Expat, known as an expatriate is someone who lives outside their native country',
+    image: 'https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/FXN.JPG?raw=true'
   },{
     id: '2',
-    title: 'What is an Expat?',
-    blogEntry: 'An Expat, known as an expatriate is someone who lives outside their native country'
+    title: 'Study Abroad',
+    blogEntry: 'Studying abroad was the best decision of my life.',
+    image: 'https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Study_Abroad.JPG?raw=true'
   }, {
     id: '3',
-    title: 'What is an Expat?',
-    blogEntry: 'An Expat, known as an expatriate is someone who lives outside their native country'
+    title: 'Backpacking',
+    blogEntry: 'By backpacking, you realize you really can survive with just a packpack!',
+    image: 'https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Harbin.jpg?raw=true'
   }]
     return (
       <Router>

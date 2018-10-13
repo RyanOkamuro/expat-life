@@ -3,7 +3,18 @@ h3 {
     text-align: center;
 }
 
+.landing-featured-images {
+    height: 300px;
+    width: 400px;
+}
+
 .landing-featured-posts {
     padding-left: 10px;
     padding-right: 10px;
+    text-align: center;
+}
+
+.landing-featured-description {
+    margin-top: 15px;
+    text-align: left;
 }

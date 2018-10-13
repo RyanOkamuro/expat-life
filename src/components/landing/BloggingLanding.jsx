@@ -6,7 +6,8 @@ class BloggingLanding extends Component {
         return (
             <div className='landing-featured-posts'>
                 <h3>{this.props.blogPost.title}</h3>
-                <p>{this.props.blogPost.blogEntry}</p>
+                <img className='landing-featured-images' src={this.props.blogPost.image}></img>
+                <p className='landing-featured-description'>{this.props.blogPost.blogEntry}</p>
             </div>
         );
     }
