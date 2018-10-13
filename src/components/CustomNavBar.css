@@ -1,3 +1,7 @@
+  .navbar {
+    margin-bottom: 0;
+  }
+  
   nav.navbar, .navbar-default {
     background-color: #2892D7 !important;
   }

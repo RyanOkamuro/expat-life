@@ -11,8 +11,10 @@ class Home extends Component {
         ))
         return (
             <div>
-                <img src='assets/Harbin.jpg' className='home-banner' alt='home-banner'></img>
-                <section role='region' className='landing-profile'>
+                <section className='home-banner-container'>
+                    <img src='assets/Santorini.jpg' className='home-banner' alt='home-banner'></img>
+                </section>
+                <section className='landing-profile'>
                     <img src='assets/me.jpg' className='profile-landing-pic' alt='profile-landing-pic'></img>
                     <div className='landing-about'>
                         <h2>Welcome to the Expat</h2> 
@@ -21,7 +23,7 @@ class Home extends Component {
                         different culture changed my perspective on life.</p>
                     </div>
                 </section>
-                <section role='region' className='landing-featured-articles'>
+                <section className='landing-featured-articles'>
                     {blogPosts}
                 </section>
             </div>

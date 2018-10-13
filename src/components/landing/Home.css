@@ -1,9 +1,15 @@
 
+.home-banner-container {
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
 .home-banner {
-    height: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
 
 .landing-profile {
@@ -27,8 +33,7 @@
 
 .landing-featured-articles {
     display: flex;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin: 50px 80px;
 }
 
 .blog-entry {
