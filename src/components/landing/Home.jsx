@@ -12,10 +12,10 @@ class Home extends Component {
         return (
             <div>
                 <section className='home-banner-container'>
-                    <img src='assets/Santorini.jpg' className='home-banner' alt='home-banner'></img>
+                    <img src='assets/Santorini/Santorini.jpg' className='home-banner' alt='home-banner'></img>
                 </section>
                 <section className='landing-profile'>
-                    <img src='assets/me.jpg' className='profile-landing-pic' alt='profile-landing-pic'></img>
+                    <img src='assets/Me/me.jpg' className='profile-landing-pic' alt='profile-landing-pic'></img>
                     <div className='landing-about'>
                         <h2>Welcome to the Expat</h2> 
                         <p className='landing-bio'>Since 2009, I have been coming back and forth from living abroad.  
