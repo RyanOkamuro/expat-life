@@ -34,8 +34,22 @@
 .landing-featured-articles {
     display: flex;
     margin: 50px 80px;
+    overflow: auto;
 }
 
 .blog-entry {
-    flex: 3;
+    flex: 1;
+    max-width: 100%;
+    height: auto;
 }
+
+/* .landing-featured-posts {
+    flex: 1;
+}
+*/
+
+.landing-featured-images {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+} 
