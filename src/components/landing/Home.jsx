@@ -17,7 +17,7 @@ class Home extends Component {
                 <section className='landing-profile'>
                     <img src='assets/Me/me.jpg' className='profile-landing-pic' alt='profile-landing-pic'></img>
                     <div className='landing-about'>
-                        <h2>Welcome to the Expat</h2> 
+                        <h1>Welcome to the Expat</h1> 
                         <p className='landing-bio'>Since 2009, I have been coming back and forth from living abroad.  
                         In total, it has been 6 years.  The experiences I had from meeting new people to understanding a 
                         different culture changed my perspective on life.</p>
