@@ -4,7 +4,10 @@ import './Home.css';
 
 class Home extends Component {
     render() {
-        const blogPosts = this.props.blogPosts.map((blogPost, index) => (
+        const featuredPostMatch = this.props.blogPosts.filter((post) => {
+            return post.featured === 'Featured';
+        })
+        const blogPosts = featuredPostMatch.map((blogPost, index) => (
             <div className='blog-entry' key={index}>
                 <BloggingLanding blogPost={blogPost} />
             </div>
@@ -29,7 +32,6 @@ class Home extends Component {
                     {blogPosts}
                 </div>
                 </section>
-                
             </div>
         );
     }
