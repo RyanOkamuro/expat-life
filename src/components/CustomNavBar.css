@@ -2,6 +2,10 @@
     margin-bottom: 0;
   }
   
+  .fixedTop {
+    top: 0;
+  }
+  
   nav.navbar, .navbar-default {
     background-color: #2892D7 !important;
   }
@@ -10,6 +14,9 @@
     background-image: none;
     border: none;
     border-radius: 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
   }
   
   .navbar-default .navbar-nav > li > a {

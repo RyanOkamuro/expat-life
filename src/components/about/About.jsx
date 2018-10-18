@@ -14,7 +14,7 @@ class About extends Component {
                     <img src='assets/Me/Business_Class.jpg' className='profile-about-pic' alt='profile-about-pic'></img>
                     <AboutBio />
                 </section>
-                <hr></hr>
+                {/* <hr></hr> */}
                 <section className='about-me-timeline'>
                     <MyStory />
                 </section>

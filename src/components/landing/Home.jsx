@@ -23,9 +23,13 @@ class Home extends Component {
                         different culture changed my perspective on life.</p>
                     </div>
                 </section>
-                <section className='landing-featured-articles'>
+                <section className='landing-featured-article-container'>
+                <h2 className='featured-article-heading'>Featured Articles</h2> 
+                <div className='landing-featured-articles'>
                     {blogPosts}
+                </div>
                 </section>
+                
             </div>
         );
     }

@@ -12,8 +12,9 @@
 
 .about-me {
     display: flex;
-    margin-left: 80px;
-    margin-right: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* background-color: #2892D7 */
 }
 
 .profile-about-pic {
@@ -28,6 +29,11 @@
     padding: 20px;
 }
 
-hr {
+/* hr {
     width: 80%;
-}
+} */
+
+.about-me-timeline {
+    background-image: linear-gradient(#FFC522, #FF9D22,#2892D7, #8388EB);
+    padding-top: 25px;
+} 

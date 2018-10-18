@@ -22,7 +22,7 @@ class CustomNavBar extends Component {
                             About
                         </NavItem>
                         <NavItem eventKey={3} componentClass={Link} href="/expat" to="/expat">
-                            Expat Life
+                            Working Abroad
                         </NavItem>
                         <NavItem eventKey={4} componentClass={Link} href="/study-abroad" to="/study-abroad">
                             Study Abroad
