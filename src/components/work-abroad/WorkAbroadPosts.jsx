@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './StudyAbroadPosts.css';
+import './WorkAbroadPosts.css';
 
-class StudyAbroadPosts extends Component {
+class WorkAbroadPosts extends Component {
     render() {
         return (
             <div className='blog-post-container'>
@@ -12,4 +12,4 @@ class StudyAbroadPosts extends Component {
     }
 }
 
-export default StudyAbroadPosts;
+export default WorkAbroadPosts;

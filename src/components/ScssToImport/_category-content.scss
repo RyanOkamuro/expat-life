@@ -1,16 +1,16 @@
 
-.landing-featured-posts {
+.blog-post-container {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
 
-    .landing-featured-images {
+    .blog-image {
         max-width: 100%;
         height: 250px;
         border-radius: 5px;
     }
 
-    .landing-featured-description {
+    .blog-description {
         margin-top: 15px;
         text-align: center;
         font-size: 15px;
@@ -21,33 +21,33 @@
 
   /* Non-mobile, grid */
   @media only screen and (max-width: 1305px) {
-    .landing-featured-posts {
-        .landing-featured-images {
+    .blog-post-container {
+        .blog-image {
             height: 200px;
         }
     }
   }
 
   @media only screen and (max-width: 1080px) {
-    .landing-featured-posts {
-        .landing-featured-images {
+    .blog-post-container {    
+        .blog-image {
             height: 150px;
         }
 
-        .landing-featured-description {
+        .blog-description {
             max-width: 225px;
         }
     }
   }
 
   @media only screen and (max-width: 905px) {
-    .landing-featured-posts {
-        .landing-featured-images {
+    .blog-post-container {
+        .blog-image {
             height: auto;
             margin-bottom: 0;
         }
 
-        .landing-featured-description {
+        .blog-description {
             margin-top: 5px;
             margin-bottom: 20px;
             margin-left: 0;
@@ -59,8 +59,8 @@
   }
 
   @media only screen and (max-width: 375px) {
-    .landing-featured-posts {
-        .landing-featured-description {
+    .blog-post-container {
+        .blog-description {
             font-size: 14px;
         }
     }

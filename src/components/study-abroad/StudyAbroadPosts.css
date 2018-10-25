@@ -1,32 +1,34 @@
-.study-abroad-posts {
+.blog-post-container {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center; }
-  .study-abroad-posts .study-abroad-images {
+  .blog-post-container .blog-image {
     max-width: 100%;
-    height: 250px; }
-  .study-abroad-posts .study-abroad-description {
+    height: 250px;
+    border-radius: 5px; }
+  .blog-post-container .blog-description {
     margin-top: 15px;
     text-align: center;
+    font-size: 15px;
     font-weight: bold;
     color: #055D95; }
 
 /* Non-mobile, grid */
 @media only screen and (max-width: 1305px) {
-  .study-abroad-posts .study-abroad-images {
+  .blog-post-container .blog-image {
     height: 200px; } }
 
 @media only screen and (max-width: 1080px) {
-  .study-abroad-posts .study-abroad-images {
+  .blog-post-container .blog-image {
     height: 150px; }
-  .study-abroad-posts .study-abroad-description {
+  .blog-post-container .blog-description {
     max-width: 225px; } }
 
 @media only screen and (max-width: 905px) {
-  .study-abroad-posts .study-abroad-images {
+  .blog-post-container .blog-image {
     height: auto;
     margin-bottom: 0; }
-  .study-abroad-posts .study-abroad-description {
+  .blog-post-container .blog-description {
     margin-top: 5px;
     margin-bottom: 20px;
     margin-left: 0;
@@ -35,5 +37,5 @@
     max-width: 100%; } }
 
 @media only screen and (max-width: 375px) {
-  .study-abroad-posts .study-abroad-description {
+  .blog-post-container .blog-description {
     font-size: 14px; } }

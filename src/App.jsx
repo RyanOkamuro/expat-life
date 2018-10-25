@@ -3,13 +3,14 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './components/landing/Home';
 import About from './components/about/About';
 import StudyAbroad from './components/study-abroad/StudyAbroad';
+import WorkAbroad from './components/work-abroad/WorkAbroad';
 import './App.css';
 import CustomNavBar from './components/CustomNavBar';
 
 export default function App() {
   const blogPosts = [{
     id: '1',
-    category: 'Working_Abroad',
+    category: 'Work_Abroad',
     featured: 'Featured',
     title: 'What is an Expat?',
     caption: 'What is it like being an expat?',
@@ -45,6 +46,20 @@ export default function App() {
     caption: 'Becoming globally minded with global friends.',
     blogEntry: 'Language exchange is about..',
     image: 'https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Tianjin/Study_Abroad_Tianjin_Russian.JPG?raw=true'
+  }, {
+    id: '6',
+    category: 'Work_Abroad',
+    title: 'Co-workering Relationships',
+    caption: 'Why relationships matter in the company',
+    blogEntry: 'Language exchange is about..',
+    image: 'https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Beijing/Genesee_Driver.JPG?raw=true'
+  }, { 
+    id: '7',
+    category: 'Work_Abroad',
+    title: 'Taking Customers Around Town',
+    caption: 'Etiquette for taking customers around',
+    blogEntry: 'Language exchange is about..',
+    image: 'https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Beijing/Genesee_Customers.JPG?raw=true'
   }]
     return (
       <Router>
@@ -54,6 +69,7 @@ export default function App() {
             <Switch>
               <Route exact path='/' component={ ()=> <Home blogPosts={blogPosts} /> } />
               <Route path='/about' name='about' component={About} />
+              <Route path='/work-abroad' name='work-abroad' component={ () => <WorkAbroad blogPosts={blogPosts} /> } />
               <Route path='/study-abroad' name='study-abroad' component={ ()=> <StudyAbroad blogPosts={blogPosts} /> } />
             </Switch>
           </main>

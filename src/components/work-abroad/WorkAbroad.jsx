@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import StudyAbroadPosts from './StudyAbroadPosts';
-import './StudyAbroad.css';
+import WorkAbroadPosts from './WorkAbroadPosts';
+import './WorkAbroad.css'
 
-class StudyAbroad extends Component {
+class WorkAbroad extends Component {
     render() {
         let blogCategory = this.props.blogPosts.filter((post) => {
-            return post.category === 'Study_Abroad';
+            return post.category === 'Work_Abroad';
         })
         const blogPosts = blogCategory.map((blogPost, index) => (
             <div className='blog-content' key={index}>
-                <StudyAbroadPosts blogPost={blogPost} />
+                <WorkAbroadPosts blogPost={blogPost} />
             </div>
         ))
         return (
@@ -18,7 +18,7 @@ class StudyAbroad extends Component {
                     <img src='assets/Beijing/Study_Abroad_UIBE_Banner.jpg' className='banner' alt='banner'></img>
                 </section>
                 <section className='article-container'>
-                    <h1 className='article-heading'>Study Abroad Articles</h1>
+                    <h1 className='article-heading'>Work Abroad Articles</h1>
                     <div className='blogging-articles'>
                         {blogPosts}
                     </div>
@@ -28,4 +28,4 @@ class StudyAbroad extends Component {
     }
 }
 
-export default StudyAbroad;
+export default WorkAbroad;

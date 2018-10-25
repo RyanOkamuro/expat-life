@@ -1,0 +1,40 @@
+$ctr: center;
+$fty: 50px;
+
+.banner-container {
+    height: 70%;
+    background-position: $ctr;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .banner {
+        width: 100%;
+    }
+}
+
+.article-container {
+    .article-heading {
+        margin-top: $fty;
+        text-align: $ctr;
+        font-size: 25px;
+        font-weight: bold;
+        color: #055D95;
+    }
+
+    .blogging-articles {
+        display: flex;
+        padding: $fty;
+        justify-content: $ctr;
+        overflow: auto;
+        flex-wrap: wrap;
+    }
+
+    .blog-content {
+        text-align: $ctr;
+    }
+}
+
+
+
+
