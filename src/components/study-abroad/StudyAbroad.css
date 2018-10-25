@@ -4,23 +4,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
+  .study-abroad-banner-container .study-abroad-banner {
+    width: 100%; }
 
-.study-abroad-banner {
-  width: 100%; }
-
-.study-abroad-articles {
-  display: flex;
-  padding: 50px;
-  justify-content: center;
-  overflow: auto;
-  flex-wrap: wrap; }
-
-.study-abroad-heading {
+.study-abroad-article-container .study-abroad-heading {
   margin-top: 50px;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
   color: #055D95; }
 
-.study-abroad-entry {
+.study-abroad-article-container .study-abroad-articles {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  overflow: auto;
+  flex-wrap: wrap; }
+
+.study-abroad-article-container .study-abroad-entry {
   text-align: center; }

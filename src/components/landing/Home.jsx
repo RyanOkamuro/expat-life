@@ -27,10 +27,10 @@ class Home extends Component {
                     </div>
                 </section>
                 <section className='landing-featured-article-container'>
-                <h2 className='featured-article-heading'>Featured Articles</h2> 
-                <div className='landing-featured-articles'>
-                    {blogPosts}
-                </div>
+                    <h2 className='featured-article-heading'>Featured Articles</h2> 
+                    <div className='landing-featured-articles'>
+                        {blogPosts}
+                    </div>
                 </section>
             </div>
         );
