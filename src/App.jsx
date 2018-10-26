@@ -4,6 +4,7 @@ import Home from './components/landing/Home';
 import About from './components/about/About';
 import StudyAbroad from './components/study-abroad/StudyAbroad';
 import WorkAbroad from './components/work-abroad/WorkAbroad';
+import Article from './components/blog-article/Article';
 import './App.css';
 import CustomNavBar from './components/CustomNavBar';
 
@@ -70,7 +71,8 @@ export default function App() {
               <Route exact path='/' component={ ()=> <Home blogPosts={blogPosts} /> } />
               <Route path='/about' name='about' component={About} />
               <Route path='/work-abroad' name='work-abroad' component={ () => <WorkAbroad blogPosts={blogPosts} /> } />
-              <Route path='/study-abroad' name='study-abroad' component={ ()=> <StudyAbroad blogPosts={blogPosts} /> } />
+              <Route exact path='/study-abroad' name='study-abroad' component={ ()=> <StudyAbroad blogPosts={blogPosts} /> } />
+              <Route path='/study-abroad/:articleid' name='study-abroad-article' component={Article} />
             </Switch>
           </main>
         </div>
