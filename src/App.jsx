@@ -50,10 +50,10 @@ export default function App() {
   }, {
     id: '6',
     category: 'Work_Abroad',
-    title: 'Co-workering Relationships',
-    caption: 'Why relationships matter in the company',
+    title: 'The Importance of a Support Network',
+    caption: 'Your support network will lead you to success.',
     blogEntry: 'Language exchange is about..',
-    image: 'https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Beijing/Genesee_Driver.JPG?raw=true'
+    image: 'https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Taipei/Friends_Support.JPG?raw=true'
   }, { 
     id: '7',
     category: 'Work_Abroad',

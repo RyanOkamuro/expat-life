@@ -1,6 +1,8 @@
 .blog-main-article {
-  padding-left: 400px;
-  padding-right: 400px; }
+  padding-left: 100px;
+  padding-right: 100px;
+  flex: 4;
+  margin-bottom: 40px; }
   .blog-main-article .blog-header {
     text-align: left; }
   .blog-main-article .blog-post-image {
