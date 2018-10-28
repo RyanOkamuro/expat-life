@@ -7,7 +7,7 @@ class ArticleSideColumn extends Component {
         return (
             <div className='article-side-column-container'>
                 <h3>Follow Me</h3>
-                <a href='https://www.instagram.com/gogoryano/'><img src='assets/Logo/instagram' className='instagramLogo' alt='instagramLogo'></img></a>
+                <a href='https://www.instagram.com/gogoryano/'><img src='../assets/Logo/instagram.jpg' className='instagramLogo' alt='instagramLogo'></img></a>
             </div>
         );
     }

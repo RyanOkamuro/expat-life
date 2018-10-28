@@ -1,3 +1,6 @@
 .article-side-column-container {
   flex: 1;
   margin-right: 100px; }
+  .article-side-column-container .instagramLogo {
+    height: 50px;
+    width: 50px; }

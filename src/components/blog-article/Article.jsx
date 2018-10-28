@@ -8,7 +8,7 @@ class Article extends Component {
         return (
             <div>
                 <section className='banner-container'>
-                    <img src='../assets/Beijing/Paper_Factory_Banner.jpg' className='banner' alt='banner'></img>
+                    <img src='../assets/AlmafiCoast/Positano.jpg' className='banner' alt='banner'></img>
                 </section>
                 <section className='blog-main-container'>   
                     <ArticleMain blogPostInfo={this.props.location.blogPostInfo}/>

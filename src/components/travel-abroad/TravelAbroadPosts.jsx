@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './WorkAbroadPosts.css';
-import {Link} from 'react-router-dom';
+import './TravelAbroadPosts.css';
+import { Link } from 'react-router-dom';
 
-class WorkAbroadPosts extends Component {
+class TravelAbroadPosts extends Component {
     render() {
         let blogArticle = {
-            pathname: '/work-abroad/' + this.props.blogPost.id,
+            pathname: '/travel-abroad/' + this.props.blogPost.id,
             blogPostInfo: this.props.blogPost
         }
         return (
@@ -17,4 +17,4 @@ class WorkAbroadPosts extends Component {
     }
 }
 
-export default WorkAbroadPosts;
+export default TravelAbroadPosts;

@@ -4,6 +4,7 @@ import Home from './components/landing/Home';
 import About from './components/about/About';
 import StudyAbroad from './components/study-abroad/StudyAbroad';
 import WorkAbroad from './components/work-abroad/WorkAbroad';
+import TravelAbroad from './components/travel-abroad/TravelAbroad'
 import Article from './components/blog-article/Article';
 import './App.css';
 import CustomNavBar from './components/CustomNavBar';
@@ -27,7 +28,7 @@ export default function App() {
     image: 'https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Beijing/Study_Abroad.JPG?raw=true'
   }, {
     id: '3',
-    category: 'Traveling',
+    category: 'Travel_Abroad',
     featured: 'Featured',
     title: 'Backpacking',
     caption: 'What to expect traveling abroad?',
@@ -53,7 +54,7 @@ export default function App() {
     title: 'The Importance of a Support Network',
     caption: 'Your support network will lead you to success.',
     blogEntry: 'Language exchange is about..',
-    image: 'https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Taipei/Friends_Support.JPG?raw=true'
+    image: 'https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Taipei/Friends_Support.jpg?raw=true'
   }, { 
     id: '7',
     category: 'Work_Abroad',
@@ -61,6 +62,20 @@ export default function App() {
     caption: 'Etiquette for taking customers around',
     blogEntry: 'Language exchange is about..',
     image: 'https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Beijing/Genesee_Customers.JPG?raw=true'
+  }, { 
+    id: '8',
+    category: 'Travel_Abroad',
+    title: 'What to Expect from Backpacking',
+    caption: 'How to prepare for a backpack trip',
+    blogEntry: 'Language exchange is about..',
+    image: 'https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Florence/Duomo.JPG?raw=true'
+  }, { 
+    id: '9',
+    category: 'Travel_Abroad',
+    title: 'Is Staying at Hostels Safe?',
+    caption: 'How to stay safe in a hostel',
+    blogEntry: 'Language exchange is about..',
+    image: 'https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Japan/Hostel_Capsule.JPG?raw=true'
   }]
     return (
       <Router>
@@ -69,10 +84,14 @@ export default function App() {
           <main role='main'>
             <Switch>
               <Route exact path='/' component={ ()=> <Home blogPosts={blogPosts} /> } />
+              <Route path='/featured/:articleid' name='featured' component={Article} />
               <Route path='/about' name='about' component={About} />
-              <Route path='/work-abroad' name='work-abroad' component={ () => <WorkAbroad blogPosts={blogPosts} /> } />
+              <Route exact path='/work-abroad' name='work-abroad' component={ () => <WorkAbroad blogPosts={blogPosts} /> } />
+              <Route path='/work-abroad/:articleid' name='work-abroad-article' component={Article} />
               <Route exact path='/study-abroad' name='study-abroad' component={ ()=> <StudyAbroad blogPosts={blogPosts} /> } />
               <Route path='/study-abroad/:articleid' name='study-abroad-article' component={Article} />
+              <Route exact path='/travel-abroad' name='travel-abroad' component={ () => <TravelAbroad blogPosts={blogPosts} /> } />
+              <Route path='/travel-abroad/:articleid' name='travel-abroad' component={Article} />
             </Switch>
           </main>
         </div>

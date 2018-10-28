@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
-import WorkAbroadPosts from './WorkAbroadPosts';
-import './WorkAbroad.css'
+import TravelAbroadPosts from './TravelAbroadPosts';
+import './TravelAbroad.css'
 
-class WorkAbroad extends Component {
+class TravelAbroad extends Component {
     render() {
         let blogCategory = this.props.blogPosts.filter((post) => {
-            return post.category === 'Work_Abroad';
+            return post.category === 'Travel_Abroad';
         })
         const blogPosts = blogCategory.map((blogPost, index) => (
             <div className='blog-content' key={index}>
-                <WorkAbroadPosts blogPost={blogPost} />
+                <TravelAbroadPosts blogPost={blogPost} />
             </div>
         ))
         return (
             <div>
                 <section className='banner-container'>
-                    <img src='../assets/Beijing/Paper_Factory_Banner.jpg' className='banner' alt='banner'></img>
+                    <img src='../assets/Athens/Parthenon_Banner.jpg' className='banner' alt='banner'></img>
                 </section>
                 <section className='article-container'>
-                    <h1 className='article-heading'>Work Abroad Articles</h1>
+                    <h1 className='article-heading'>Travel Abroad Articles</h1>
                     <div className='blogging-articles'>
                         {blogPosts}
                     </div>
@@ -28,4 +28,4 @@ class WorkAbroad extends Component {
     }
 }
 
-export default WorkAbroad;
+export default TravelAbroad;
