@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import {getAllBlogEntries} from '../../actions/blogActions';
+import {connect} from 'react-redux';
+import {withRouter} from 'react-router-dom';
 import './BloggingLanding.css'
 
 class BloggingLanding extends Component {
+    componentDidMount() {
+        this.props.dispatch(getAllBlogEntries());
+    }
     render() {
         let blogArticle = {
             pathname: '/featured/' + this.props.blogPost.id,
@@ -17,4 +23,16 @@ class BloggingLanding extends Component {
     }
 }
 
-export default BloggingLanding;
+BloggingLanding.defaultProps = {
+    title: 'BloggingLanding'
+};
+
+const mapStateToProps = state => console.log(state)
+(
+    
+    {
+    
+    blogPost: state.blogEntry.allBloggingEntries
+});
+
+export default withRouter(connect(mapStateToProps)(BloggingLanding));
