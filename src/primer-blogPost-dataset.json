@@ -1,0 +1,66 @@
+{
+    "category": "Work_Abroad",
+    "featured": "Featured",
+    "title": "What is an Expat?",
+    "caption": "What is it like being an expat?",
+    "blogEntry": "An Expat, known as an expatriate is someone who lives outside their native country",
+    "image": "https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Taipei/FXN.JPG?raw=true"
+},
+{
+    "category": "Study_Abroad",
+    "featured": "Featured",
+    "title": "Study Abroad",
+    "caption": "Why study abroad?",
+    "blogEntry": "Studying abroad was the best decision of my life.",
+    "image": "https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Beijing/Study_Abroad.JPG?raw=true"
+},
+{
+    "category": "Travel_Abroad",
+    "featured": "Featured",
+    "title": "Backpacking",
+    "caption": "What to expect traveling abroad?",
+    "blogEntry": "By backpacking, you realize you really can survive with just a packpack!",
+    "image": "https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Harbin/Harbin.jpg?raw=true"
+  }, {
+    "category": "Study_Abroad",
+    "featured": "No",
+    "title": "Language Exchange",
+    "caption": "Make the best of your Language Exchange.",
+    "blogEntry": "Language exchange is about..",
+    "image": "https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Tianjin/Study_Abroad_Tianjin_Signing.JPG?raw=true"
+  }, {
+    "category": "Study_Abroad",
+    "featured": "No",
+    "title": "Meeting Global Friends",
+    "caption": "Becoming globally minded with global friends.",
+    "blogEntry": "Language exchange is about..",
+    "image": "https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Tianjin/Study_Abroad_Tianjin_Russian.JPG?raw=true"
+  }, {
+    "category": "Work_Abroad",
+    "featured": "No",
+    "title": "The Importance of a Support Network",
+    "caption": "Your support network will lead you to success.",
+    "blogEntry": "Language exchange is about..",
+    "image": "https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Taipei/Friends_Support.jpg?raw=true"
+  }, { 
+    "category": "Work_Abroad",
+    "featured": "No",
+    "title": "Taking Customers Around Town",
+    "caption": "Etiquette for taking customers around",
+    "blogEntry": "Language exchange is about..",
+    "image": "https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Beijing/Genesee_Customers.JPG?raw=true"
+  }, { 
+    "category": "Travel_Abroad",
+    "featured": "No",
+    "title": "What to Expect from Backpacking",
+    "caption": "How to prepare for a backpack trip",
+    "blogEntry": "Language exchange is about..",
+    "image": "https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Florence/Duomo.JPG?raw=true"
+  }, { 
+    "category": "Travel_Abroad",
+    "featured": "No",
+    "title": "Is Staying at Hostels Safe?",
+    "caption": "How to stay safe in a hostel",
+    "blogEntry": "Language exchange is about..",
+    "image": "https://github.com/RyanOkamuro/expat-life/blob/feature/landing-page/public/assets/Japan/Hostel_Capsule.JPG?raw=true"
+  }]

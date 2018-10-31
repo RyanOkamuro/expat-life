@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import StudyAbroadPosts from './StudyAbroadPosts';
+import {getAllBlogEntries} from '../../actions/blogActions';
+import {connect} from 'react-redux';
+import {withRouter} from 'react-router-dom';
 import './StudyAbroad.css';
 
 class StudyAbroad extends Component {
+    componentDidMount() {
+        this.props.dispatch(getAllBlogEntries());
+    }
     render() {
         let blogCategory = this.props.blogPosts.filter((post) => {
             return post.category === 'Study_Abroad';
@@ -28,4 +34,12 @@ class StudyAbroad extends Component {
     }
 }
 
-export default StudyAbroad;
+StudyAbroad.defaultProps = {
+    title: 'StudyAbroad'
+};
+
+const mapStateToProps = state => ({
+    blogPosts: state.blog.allBloggingEntries
+});
+
+export default withRouter(connect(mapStateToProps)(StudyAbroad));

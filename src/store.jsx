@@ -1,17 +1,19 @@
-import {createStore, applyMiddleware, combineReducers} from 'redux';
+import {createStore, applyMiddleware, combineReducers, compose} from 'redux';
 import {blogReducer} from './reducers/blogReducer';
 import thunk from 'redux-thunk';
 import {loadAuthToken} from './local-storage';
 import authReducer from './reducers/auth';
 import {setAuthToken, refreshAuthToken} from './actions/auth';
 
+const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+
 const store = createStore(
     combineReducers({
-        blog: blogReducer,
-        auth: authReducer,
-    }),
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
-    applyMiddleware(thunk)
+    blog: blogReducer,
+    auth: authReducer
+}),
+    composeEnhancer(applyMiddleware(thunk))
 );
 
 // Hydrate the authToken from localStorage if it exist

@@ -6,7 +6,7 @@ class StudyAbroadPosts extends Component {
     render() {
         let blogArticle = {
             pathname: '/study-abroad/' + this.props.blogPost.id,
-            blogPostInfo: this.props.blogPost
+            blogPosts: this.props.blogPost
         }
         return (
             <div className='blog-post-container'>

@@ -16,4 +16,5 @@ export const blogReducer = (state=initialState, action) => {
         allBloggingEntries: action.bloggingEntries.bloggingEntry
         });
     }
+    return state;
 }

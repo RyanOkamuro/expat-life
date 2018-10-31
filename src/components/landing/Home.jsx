@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import BloggingLanding from './BloggingLanding';
+import {getAllBlogEntries} from '../../actions/blogActions';
+import {connect} from 'react-redux';
+import {withRouter} from 'react-router-dom';
 import './Home.css';
 
 class Home extends Component {
+    componentDidMount() {
+        this.props.dispatch(getAllBlogEntries());
+    }
     render() {
         const featuredPostMatch = this.props.blogPosts.filter((post) => {
             return post.featured === 'Featured';
@@ -37,4 +43,12 @@ class Home extends Component {
     }
 }
 
-export default Home;
+Home.defaultProps = {
+    title: 'Home'
+};
+
+const mapStateToProps = state => ({
+    blogPosts: state.blog.allBloggingEntries
+});
+
+export default withRouter(connect(mapStateToProps)(Home));
