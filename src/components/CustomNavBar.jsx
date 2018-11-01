@@ -28,7 +28,7 @@ class CustomNavBar extends Component {
                             Study Abroad
                         </NavItem>
                         <NavItem eventKey={5} componentClass={Link} href="/travel-abroad" to="/travel-abroad">
-                            Travel
+                            Travel Abroad
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>
