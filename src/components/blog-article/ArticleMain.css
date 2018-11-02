@@ -5,6 +5,10 @@
   margin-bottom: 40px; }
   .blog-main-article .blog-header {
     text-align: left; }
+  .blog-main-article .date-created {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px; }
   .blog-main-article .blog-post-image {
     height: auto;
     max-width: 100%;
