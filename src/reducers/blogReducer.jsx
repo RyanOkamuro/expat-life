@@ -1,4 +1,5 @@
 import * as actions from '../actions/blogActions';
+// import * as updateBlogAction from '../actions/blogActions';
 
 const initialState = {
     allBloggingEntries: []
@@ -16,5 +17,16 @@ export const blogReducer = (state=initialState, action) => {
         allBloggingEntries: action.bloggingEntries.bloggingEntry
         });
     }
+    // if (action.type === updateBlogAction.EDIT_BLOG_ENTRIES) {
+    //     return Object.assign({}, state, {
+    //         allBloggingEntries: state.allBloggingEntries.map(blog => {
+    //             if(blog.id === action.bloggingEntries._id) {
+    //                 return action.bloggingEntries;
+    //             } else {
+    //                 return blog;
+    //             }
+    //         })
+    //     })
+    // }
     return state;
 }

@@ -23,3 +23,43 @@ export const getAllBlogEntries = () => dispatch => {
 		dispatch(getBlogEntries(bloggingEntries));
 	});
 };
+
+/////////////////////////////////////////////////////////////////
+
+// export const EDIT_BLOG_ENTRIES = 'EDIT_BLOG_ENTRIES';
+// export const editBlog = bloggingEntries => ({
+//     type: EDIT_BLOG_ENTRIES,
+//     bloggingEntries
+// })
+
+// export const editedBlogEntry = (bloggingEntry, blogID) => dispatch => {
+//     return fetch(`${API_BASE_URL}/blogPosts/${blogID}`, {
+//         method: 'PUT',
+//         body: JSON.stringify(bloggingEntry),
+//         headers: {
+//             'Content-Type': 'application/json'
+//         }
+//     })
+//         .then(res => {
+//             if (!res.ok) {
+//                 if (
+//                     res.headers.has('content-type') &&
+//                     res.headers
+//                         .get('content-type')
+//                         .startsWith('application/json')
+//                 ) {
+//                     //Detailed JSON error response
+//                     return res.json().then(err => Promise.reject(err));
+//                 }
+//                 // Less informative error returned by express
+//                 return Promise.reject({
+//                     code: res.status,
+//                     message: res.statusText
+//                 });
+//             }
+//             return res.json()
+//         })
+//         .then(bloggingEntries => {
+//             dispatch(getUpdateDeal(bloggingEntries))
+//         })
+//     }

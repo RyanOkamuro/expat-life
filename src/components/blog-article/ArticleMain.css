@@ -1,7 +1,5 @@
 .blog-main-article {
-  padding-left: 100px;
   padding-right: 100px;
-  flex: 4;
   margin-bottom: 40px; }
   .blog-main-article .blog-header {
     text-align: left; }
@@ -17,3 +15,20 @@
     margin-bottom: 30px; }
   .blog-main-article .blog-article-content {
     font-size: 18px; }
+
+@media only screen and (max-width: 1800px) {
+  .blog-main-article {
+    width: 1000px; } }
+
+@media only screen and (max-width: 1200px) {
+  .blog-main-article {
+    width: 970px;
+    padding-right: 0; } }
+
+@media only screen and (max-width: 992px) {
+  .blog-main-article {
+    width: 750px; } }
+
+@media only screen and (max-width: 768px) {
+  .blog-main-article {
+    width: auto; } }
