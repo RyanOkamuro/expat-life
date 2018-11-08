@@ -24,7 +24,6 @@ class Article extends Component {
                 </div>
             );
         } else {
-            console.log(this.props.blogPosts);
             const selectedArticle = this.props.blogPosts.find(post => post.id === this.props.match.params.articleid)
             if(selectedArticle) {
                 return (
