@@ -1,0 +1,50 @@
+.about-banner-container {
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .about-banner-container .about-banner {
+    width: 100%; }
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto; }
+  .about-me .profile-about-pic {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 50px;
+    height: 300px;
+    width: 375px; }
+  .about-me .profile-about {
+    padding: 0 20px 20px 20px; }
+    .about-me .profile-about .about-bio {
+      font-size: 16px; }
+
+.about-me-timeline {
+  background-image: linear-gradient(#FFC522, #FF9D22, #2892D7, #8388EB);
+  padding: 25px 10px 10px 10px; }
+
+@media only screen and (max-width: 1800px) {
+  .about-me {
+    width: 1170px; } }
+
+@media only screen and (max-width: 1200px) {
+  .about-me {
+    width: 970px; } }
+
+@media only screen and (max-width: 992px) {
+  .about-me {
+    width: 750px; } }
+
+@media only screen and (max-width: 768px) {
+  .about-me {
+    width: auto; } }
+
+@media only screen and (max-width: 360px) {
+  .about-me .profile-about-pic {
+    height: 225px;
+    width: 300px; } }

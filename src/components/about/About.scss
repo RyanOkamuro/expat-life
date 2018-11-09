@@ -13,11 +13,12 @@ $ctr: center;
 }
 
 .about-me {
-    padding-left: 200px;
-    padding-right: 200px;
-
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
     .profile-about-pic {
-        display: block;
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
@@ -27,7 +28,7 @@ $ctr: center;
     }
 
     .profile-about {
-        padding: 20px;
+        padding: 0 20px 20px 20px;
         .about-bio {
             font-size: 16px;
         }
@@ -36,37 +37,38 @@ $ctr: center;
 
 .about-me-timeline {
     background-image: linear-gradient(#FFC522, #FF9D22,#2892D7, #8388EB);
-    padding-top: 25px;
+    padding: 25px 10px 10px 10px;
 } 
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 1800px) {
     .about-me {
-        padding-left: 150px;
-        padding-right: 150px
+        width: 1170px;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1200px) {
     .about-me {
-        padding-left: 100px;
-        padding-right: 100px
+        width: 970px;
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 992px) {
     .about-me {
-        padding-left: 50px;
-        padding-right: 50px;
+        width: 750px
     }
 }
 
-@media only screen and (max-width: 585px) {
+@media only screen and (max-width: 768px) {
     .about-me {
-        padding-left: 30px;
-        padding-right: 30px;
-            .profile-about-pic {
-                height: 250px;
-                width: 325px;
-            }
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .about-me {
+        .profile-about-pic {
+            height: 225px;
+            width: 300px;
+        }
     }
 }

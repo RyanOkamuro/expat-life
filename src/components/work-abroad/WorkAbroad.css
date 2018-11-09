@@ -1,0 +1,25 @@
+.banner-container {
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .banner-container .banner {
+    width: 100%; }
+
+.article-container .article-heading {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #055D95; }
+
+.article-container .blogging-articles {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  overflow: auto;
+  flex-wrap: wrap; }
+
+.article-container .blog-content {
+  text-align: center; }

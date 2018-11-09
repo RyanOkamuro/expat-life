@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './AboutBio.css';
 
 class AboutBio extends Component {
     render() {
