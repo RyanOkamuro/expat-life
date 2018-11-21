@@ -1,0 +1,15 @@
+.article-side-column-container {
+    flex: 1;
+
+    .instagramLogo {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+// @media only screen and (max-width: 768px) {
+//     .article-side-column-container {
+//         flex: 0;
+//     }
+// }

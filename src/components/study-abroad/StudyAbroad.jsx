@@ -1,25 +1,31 @@
 import React, { Component } from 'react';
 import StudyAbroadPosts from './StudyAbroadPosts';
+import {getAllBlogEntries} from '../../actions/blogActions';
+import {connect} from 'react-redux';
+import {withRouter} from 'react-router-dom';
 import './StudyAbroad.css';
 
 class StudyAbroad extends Component {
+    componentDidMount() {
+        this.props.dispatch(getAllBlogEntries());
+    }
     render() {
         let blogCategory = this.props.blogPosts.filter((post) => {
             return post.category === 'Study_Abroad';
         })
         const blogPosts = blogCategory.map((blogPost, index) => (
-            <div className='study-abroad-entry' key={index}>
+            <div className='blog-content' key={index}>
                 <StudyAbroadPosts blogPost={blogPost} />
             </div>
         ))
         return (
             <div>
-                <section className='study-abroad-banner-container'>
-                    <img src='assets/Beijing/Study_Abroad_UIBE_Banner.jpg' className='study-abroad-banner' alt='study-abroad-banner'></img>
+                <section className='banner-container'>
+                    <img src='assets/Beijing/Study_Abroad_UIBE_Banner.jpg' className='banner' alt='banner'></img>
                 </section>
-                <section className='study-abroad-article-container'>
-                    <h1 className='study-abroad-heading'>Study Abroad Articles</h1>
-                    <div className='study-abroad-articles'>
+                <section className='article-container'>
+                    <h1 className='article-heading'>Study Abroad Articles</h1>
+                    <div className='blogging-articles'>
                         {blogPosts}
                     </div>
                 </section>
@@ -28,4 +34,12 @@ class StudyAbroad extends Component {
     }
 }
 
-export default StudyAbroad;
+StudyAbroad.defaultProps = {
+    title: 'StudyAbroad'
+};
+
+const mapStateToProps = state => ({
+    blogPosts: state.blog.allBloggingEntries
+});
+
+export default withRouter(connect(mapStateToProps)(StudyAbroad));

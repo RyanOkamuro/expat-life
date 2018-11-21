@@ -1,31 +1,53 @@
+.about-page {
+  background: #2892D7; }
+
 .about-banner-container {
   height: 70%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
-
-.about-banner {
-  width: 100%; }
+  .about-banner-container .about-banner {
+    width: 100%; }
 
 .about-me {
   display: flex;
-  padding-left: 80px;
-  padding-right: 80px; }
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto; }
+  .about-me .profile-about-pic {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 50px;
+    height: 300px;
+    width: 375px; }
+  .about-me .profile-about {
+    padding: 0 20px 20px 20px; }
+    .about-me .profile-about .about-bio {
+      font-size: 16px; }
 
-.profile-about-pic {
-  padding: 20px;
-  border-radius: 50px;
-  height: 300px;
-  width: 400px; }
-
-.profile-about {
-  flex: 2;
-  padding: 20px; }
-
-/* hr {
-    width: 80%;
-} */
 .about-me-timeline {
   background-image: linear-gradient(#FFC522, #FF9D22, #2892D7, #8388EB);
-  padding-top: 25px; }
+  padding: 25px 10px 10px 10px; }
+
+@media only screen and (max-width: 1800px) {
+  .about-me {
+    width: 1170px; } }
+
+@media only screen and (max-width: 1200px) {
+  .about-me {
+    width: 970px; } }
+
+@media only screen and (max-width: 992px) {
+  .about-me {
+    width: 750px; } }
+
+@media only screen and (max-width: 768px) {
+  .about-me {
+    width: auto; } }
+
+@media only screen and (max-width: 360px) {
+  .about-me .profile-about-pic {
+    height: 225px;
+    width: 300px; } }

@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import BloggingLanding from './BloggingLanding';
+import {getAllBlogEntries} from '../../actions/blogActions';
+import {connect} from 'react-redux';
+import {withRouter} from 'react-router-dom';
 import './Home.css';
 
 class Home extends Component {
+    componentDidMount() {
+        this.props.dispatch(getAllBlogEntries());
+    }
     render() {
         const featuredPostMatch = this.props.blogPosts.filter((post) => {
             return post.featured === 'Featured';
@@ -27,14 +33,22 @@ class Home extends Component {
                     </div>
                 </section>
                 <section className='landing-featured-article-container'>
-                <h2 className='featured-article-heading'>Featured Articles</h2> 
-                <div className='landing-featured-articles'>
-                    {blogPosts}
-                </div>
+                    <h2 className='featured-article-heading'>Featured Articles</h2> 
+                    <div className='landing-featured-articles'>
+                        {blogPosts}
+                    </div>
                 </section>
             </div>
         );
     }
 }
 
-export default Home;
+Home.defaultProps = {
+    title: 'Home'
+};
+
+const mapStateToProps = state => ({
+    blogPosts: state.blog.allBloggingEntries
+});
+
+export default withRouter(connect(mapStateToProps)(Home));
