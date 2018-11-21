@@ -6,7 +6,7 @@ import './About.css';
 class About extends Component {
     render() {
         return (
-            <div>
+            <div className='about-page'>
                 <section className='about-banner-container'>
                     <img src='assets/Budapest/Fishermans_Bastion.jpg' className='about-banner' alt='about-banner'></img>
                 </section>
