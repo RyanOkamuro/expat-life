@@ -21,7 +21,7 @@ class StudyAbroad extends Component {
         return (
             <div>
                 <section className='banner-container'>
-                    <img src='assets/Beijing/Study_Abroad_UIBE_Banner.jpg' className='banner' alt='banner'></img>
+                    <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Beijing/Study_Abroad_UIBE_Banner.JPG?raw=true' className='banner' alt='banner'></img>
                 </section>
                 <section className='article-container'>
                     <h1 className='article-heading'>Study Abroad Articles</h1>

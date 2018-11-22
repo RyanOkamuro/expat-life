@@ -21,7 +21,7 @@ class TravelAbroad extends Component {
         return (
             <div>
                 <section className='banner-container'>
-                    <img src='../assets/Athens/Parthenon_Banner.jpg' className='banner' alt='banner'></img>
+                    <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Athens/Parthenon_Banner.JPG?raw=true' className='banner' alt='banner'></img>
                 </section>
                 <section className='article-container'>
                     <h1 className='article-heading'>Travel Abroad Articles</h1>

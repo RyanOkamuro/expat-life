@@ -21,7 +21,7 @@ class WorkAbroad extends Component {
         return (
             <div>
                 <section className='banner-container'>
-                    <img src='../assets/Beijing/Paper_Factory_Banner.jpg' className='banner' alt='banner'></img>
+                    <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Beijing/Paper_Factory_Banner.JPG?raw=true' className='banner' alt='banner'></img>
                 </section>
                 <section className='article-container'>
                     <h1 className='article-heading'>Work Abroad Articles</h1>

@@ -8,10 +8,10 @@ class About extends Component {
         return (
             <div className='about-page'>
                 <section className='about-banner-container'>
-                    <img src='assets/Budapest/Fishermans_Bastion.jpg' className='about-banner' alt='about-banner'></img>
+                    <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Budapest/Fishermans_Bastion.JPG?raw=true' className='about-banner' alt='about-banner'></img>
                 </section>
                 <section className='about-me'>
-                    <img src='assets/Me/Business_Class.jpg' className='profile-about-pic' alt='profile-about-pic'></img>
+                    <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Me/Business_Class.JPG?raw=true' className='profile-about-pic' alt='profile-about-pic'></img>
                     <AboutBio />
                 </section>
                 <section className='about-me-timeline'>
