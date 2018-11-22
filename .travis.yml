@@ -2,10 +2,5 @@ language: node_js
 node_js: node
 script:
 - npm test
-deploy:
-  provider: heroku
-  api_key:
-    secure: I4Yc0KtOxLFTjSAWXH0l/J3tII3S4GtpqX+Ckf10xdm9VyFcNMa8DVOYWOqDsdYG9zBo1IXD2lOw5zarxdYISGzhcBtT1v3sJVLcJ3Gnoe3p1DYye624VWUQy0nKJp4v3Z0xntaCBMeQwdteeNOUkEH5aVEfF4ydIYB4J95kW+EPmzDnzAXX0JVahYu02Zdhh3avdBldYgT7JoJZ+SyRo1mxLzwaPbm6R4XiLMyY7ZV28mw4Ar5ldeBz5awul05/9JGS0RhddhTMvEkRTbavBTqzF233JfiyUijzEW4azbFy79irJdrVg15Jt29lFiNPcHqn2K9SmzvuI3gI4+DQnH5bn04bN0vL3ZzmITmqe8vsqYG/yLFEMT0muNUddhBATwd+preQnVKF7LTPM4n4s0bdPBfMOXhHO39UDqqbmVU+zd2zLwOIjwUU+mo3wRuxvL5xR+INqAmEU2cr3KnlNDx9RCAAB/WMWa1H/ZqsxJj3N5KvkcGuwEQUo8rglBE3mjK663Xcx1fOsZXnrgJ+CokrrzAm0bCY2+DwwvY08/+/hdBIZaK9cMatczqtxfi9AtpFkm4e05opDjpqAQQNrUfM49ZNSW/JzZPq8Bahar9L5ZWKhSPqTvsS1g4AnWh2Ie/4rE+bE8zGwXICVEUQUY3eaU7F6XTIE9LGxAwUuP0=
-  app: expat-life
-  on:
-    repo: RyanOkamuro/expat-life
+env:
+- CI=true
