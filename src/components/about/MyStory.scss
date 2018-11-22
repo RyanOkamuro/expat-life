@@ -1,7 +1,14 @@
+$ctr: center;
+
 .about-myStory {
-    text-align: center;
+    text-align: $ctr;
+    margin-bottom: 0;
+}
+
+.about-myStory:last-child {
+    padding-bottom: 30px;
 }
 
 h2, h3, h4 {
-    text-align: center;
+    text-align: $ctr;
 }
