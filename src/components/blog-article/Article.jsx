@@ -15,7 +15,7 @@ class Article extends Component {
             return (
                 <div>
                     <section className='banner-container'>
-                        <img src='../assets/AlmafiCoast/Positano.jpg' className='banner' alt='banner'></img>
+                        <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/AlmafiCoast/Positano.JPG?raw=true' className='banner' alt='banner'></img>
                     </section>
                     <section className='blog-main-container'>   
                         <ArticleMain blogPosts={this.props.location.blogPosts}/>
@@ -29,7 +29,7 @@ class Article extends Component {
                 return (
                     <div>
                         <section className='banner-container'>
-                            <img src='../assets/AlmafiCoast/Positano.jpg' className='banner' alt='banner'></img>
+                            <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/AlmafiCoast/Positano.JPG?raw=true' className='banner' alt='banner'></img>
                         </section>
                         <section className='blog-main-container'>   
                             <ArticleMain blogPosts={selectedArticle}/>
