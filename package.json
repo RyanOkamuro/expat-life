@@ -2,7 +2,7 @@
   "name": "expat-life",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ryanokamuro.github.io/expat-life/",
+  "homepage": "https://expat-life.herokuapp.com/",
   "dependencies": {
     "enzyme": "^3.7.0",
     "jest": "^23.6.0",
