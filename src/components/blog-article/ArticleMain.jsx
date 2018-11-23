@@ -12,6 +12,7 @@ class ArticleMain extends Component {
                 {this.props.blogPosts.blogEntry.split('\n').map((paragraph, index) => {
                     return (<p className='blog-article-content' key={index}>{paragraph}</p>)
                 })}
+                <hr />
             </div>
         );
     }

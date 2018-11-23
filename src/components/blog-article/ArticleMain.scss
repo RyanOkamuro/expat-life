@@ -1,9 +1,6 @@
 
 .blog-main-article {
-    // padding-left: 100px;
-    // width: 1400px;
     padding-right: 100px;
-    // flex: 4;
     margin-bottom: 40px;
 
     .blog-header {
@@ -29,7 +26,7 @@
     }
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 2500px) {
     .blog-main-article {
         width: 1000px;
     }
@@ -37,6 +34,7 @@
 
 @media only screen and (max-width: 1200px) {
     .blog-main-article {
+        margin-bottom: 0;
         width: 970px;
         padding-right: 0;
     }
