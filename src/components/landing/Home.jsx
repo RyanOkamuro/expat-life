@@ -19,7 +19,7 @@ class Home extends Component {
             </div>
         ))
         return (
-            <div>
+            <div className='home-page'>
                 <section className='home-banner-container'>
                     <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Santorini/Santorini.JPG?raw=true' className='home-banner' alt='home-banner'></img>
                 </section>

@@ -1,3 +1,6 @@
+.home-page {
+  background-color: #2892D7; }
+
 .home-banner-container {
   height: 70%;
   background-position: center;
@@ -10,10 +13,9 @@
 .landing-profile {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 50px;
-  padding-right: 50px;
-  background-color: #2892D7;
-  color: white; }
+  color: white;
+  margin-left: auto;
+  margin-right: auto; }
   .landing-profile .profile-landing-pic {
     margin-left: auto;
     margin-right: auto;
@@ -26,24 +28,44 @@
     padding: 20px;
     order: 2; }
 
-.landing-featured-article-container .featured-article-heading {
-  margin-top: 50px;
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-  color: #055D95; }
-
-.landing-featured-article-container .landing-featured-articles {
-  display: flex;
-  padding: 50px;
-  justify-content: center;
-  overflow: auto;
-  flex-wrap: wrap; }
-
-.landing-featured-article-container .blog-entry {
-  text-align: center; }
+.landing-featured-article-container {
+  background: white; }
+  .landing-featured-article-container .featured-article-heading {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #055D95; }
+  .landing-featured-article-container .landing-featured-articles {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    overflow: auto;
+    flex-wrap: wrap; }
+  .landing-featured-article-container .blog-entry {
+    text-align: center; }
 
 /* Non-mobile, grid */
+@media only screen and (max-width: 1800px) {
+  .landing-profile {
+    width: 1170px; } }
+
+@media only screen and (max-width: 1200px) {
+  .landing-profile {
+    width: 970px; } }
+
+@media only screen and (max-width: 992px) {
+  .landing-profile {
+    width: 750px; } }
+
 @media only screen and (max-width: 905px) {
   .landing-featured-article-container .landing-featured-articles {
     justify-content: center; } }
+
+@media only screen and (max-width: 768px) {
+  .landing-profile {
+    width: auto; } }
+
+@media only screen and (max-width: 392px) {
+  .landing-profile h1 {
+    text-align: center; } }

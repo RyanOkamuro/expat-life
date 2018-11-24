@@ -1,5 +1,8 @@
 $ctr: center;
-$fty: 50px;
+
+.home-page {
+    background-color: #2892D7;
+}
 
 .home-banner-container {
     height: 70%;
@@ -16,10 +19,9 @@ $fty: 50px;
 .landing-profile {
     display: flex;
     flex-wrap: wrap;
-    padding-left: $fty;
-    padding-right: $fty;
-    background-color: #2892D7;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
 
     .profile-landing-pic {
         margin-left: auto;
@@ -38,8 +40,10 @@ $fty: 50px;
 }
 
 .landing-featured-article-container {
+    background: white;
+
     .featured-article-heading {
-        margin-top: $fty;
+        padding-top: 50px;
         text-align: $ctr;
         font-size: 25px;
         font-weight: bold;
@@ -48,7 +52,7 @@ $fty: 50px;
 
     .landing-featured-articles {
         display: flex;
-        padding: $fty;
+        padding: 50px;
         justify-content: $ctr;
         overflow: auto;
         flex-wrap: wrap;
@@ -60,10 +64,42 @@ $fty: 50px;
 }
 
   /* Non-mobile, grid */
-  @media only screen and (max-width: 905px) {
-        .landing-featured-article-container {
-            .landing-featured-articles {
-                justify-content: $ctr;
-            }
+  @media only screen and (max-width: 1800px) {
+    .landing-profile {
+        width: 1170px;
     }
-  }
+}
+
+@media only screen and (max-width: 1200px) {
+    .landing-profile {
+        width: 970px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .landing-profile {
+        width: 750px
+    }
+}
+
+@media only screen and (max-width: 905px) {
+    .landing-featured-article-container {
+        .landing-featured-articles {
+            justify-content: $ctr;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .landing-profile {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 392px) {
+    .landing-profile {
+        h1 {
+            text-align: center;
+        }
+    }
+}
