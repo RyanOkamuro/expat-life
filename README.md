@@ -7,6 +7,16 @@ Blog about my life studying, working, and traveling abroad across 9 years.
 Screenshots
 -----------
 
+![Landing Page](https://raw.githubusercontent.com/RyanOkamuro/expat-life/master/public/assets/Screenshots/Expat_Life_Landing_Page.jpg)
+
+![About Page](https://raw.githubusercontent.com/RyanOkamuro/expat-life/master/public/assets/Screenshots/Expat_Life_About.jpg)
+
+![Work Abroad Page](https://raw.githubusercontent.com/RyanOkamuro/expat-life/master/public/assets/Screenshots/Expat_Life_Work_Abroad.jpg)
+
+![Study Abroad Page](https://raw.githubusercontent.com/RyanOkamuro/expat-life/master/public/assets/Screenshots/Expat_Life_Study_Abroad.jpg)
+
+![Travel Abroad Page](https://raw.githubusercontent.com/RyanOkamuro/expat-life/master/public/assets/Screenshots/Expat_Life_Travel_Abroad.jpg)
+
 
 Built With
 ----------
