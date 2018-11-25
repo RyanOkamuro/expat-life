@@ -17,6 +17,7 @@ Screenshots
 
 ![Travel Abroad Page](https://raw.githubusercontent.com/RyanOkamuro/expat-life/master/public/assets/Screenshots/Expat_Life_Travel_Abroad.jpg)
 
+![Blog Post Page](https://raw.githubusercontent.com/RyanOkamuro/expat-life/master/public/assets/Screenshots/Expat_Life_Blog_Post.jpg)
 
 Built With
 ----------
