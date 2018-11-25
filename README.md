@@ -26,7 +26,7 @@ Frontend: <br />
 -Redux <br />
 -Javascript <br />
 -HTML <br />
--CSS/SCSS
+-CSS/SCSS <br />
 (https://github.com/RyanOkamuro/expat-life)
 
 Backend: <br />
