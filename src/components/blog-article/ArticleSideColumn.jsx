@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Instagram from './Instagram';
 import './ArticleSideColumn.css'
 
 class ArticleSideColumn extends Component {
@@ -6,7 +7,8 @@ class ArticleSideColumn extends Component {
         return (
             <div className='article-side-column-container'>
                 <h3>Follow Me</h3>
-                <a href='https://www.instagram.com/gogoryano/'><img src='../assets/Logo/instagram.jpg' className='instagramLogo' alt='instagramLogo'></img></a>
+                <Instagram />
+                {/* <a href='https://www.instagram.com/gogoryano/'><img src='../assets/Logo/instagram.jpg' className='instagramLogo' alt='instagramLogo'></img></a> */}
             </div>
         );
     }

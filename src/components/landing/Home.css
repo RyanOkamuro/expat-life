@@ -46,7 +46,7 @@
     text-align: center; }
 
 /* Non-mobile, grid */
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 10000px) {
   .landing-profile {
     width: 1170px; } }
 
