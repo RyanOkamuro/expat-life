@@ -1,0 +1,13 @@
+#instafeed {
+  display: flex;
+  flex-wrap: wrap; }
+  #instafeed img.instagram-image {
+    width: 75px;
+    height: 75px; }
+
+@media only screen and (max-width: 1200px) {
+  #instafeed {
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 0; } }

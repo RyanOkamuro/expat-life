@@ -1,16 +1,19 @@
 
-// .instagram-gallery {
-//         @media only screen and (max-width: 2500px) {
-//             .instagram-image { 
-//                 display: block;
-//                 margin-right: auto;
-//                 margin-left: auto;
-//             }
-//         }
-        
-//         @media only screen and (max-width: 1200px) {
-//             .instagram-image {
-//                 margin-bottom: 20px;
-//             }
-//     }
-// }
+#instafeed {
+    display: flex;
+    flex-wrap: wrap;
+
+    img.instagram-image {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #instafeed {
+        text-align: center;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+}

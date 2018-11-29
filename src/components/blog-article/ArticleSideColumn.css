@@ -1,2 +1,7 @@
 .article-side-column-container {
   flex: 1; }
+  .article-side-column-container .instagram-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px; }

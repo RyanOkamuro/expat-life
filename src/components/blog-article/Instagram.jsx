@@ -9,7 +9,7 @@ class Instagram extends Component {
         return (
             <div id={instafeedTarget}>
                 <Instafeed
-                limit='5'
+                limit='10'
                 ref='instafeed'
                 resolution='thumbnail'
                 sortBy='most-recent'
@@ -17,7 +17,7 @@ class Instagram extends Component {
                 template='
                     <div class="instagram-gallery">
                         <a href="{{link}}" title="{{caption}}" target="_blank">
-                            <img src="{{image}}" alt="{{caption}}" class="instagram-image"/>
+                            <img src="{{image}}" width="{{width}}" height="{{height}}" alt="{{caption}}" class="instagram-image"/>
                         </a>
                     </div>'
                 userId={`${process.env.REACT_APP_INSTAGRAM_USER_ID}`}
