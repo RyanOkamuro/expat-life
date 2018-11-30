@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ArticleMain from './ArticleMain';
 import ArticleSideColumn from './ArticleSideColumn';
+import BannerCarousel from '../banner/BannerCarousel';
 import {getAllBlogEntries} from '../../actions/blogActions';
 import {connect} from 'react-redux';
 import {withRouter} from 'react-router-dom';
@@ -14,9 +15,7 @@ class Article extends Component {
         if (this.props.location.blogPosts) {
             return (
                 <div>
-                    <section className='banner-container'>
-                        <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/AlmafiCoast/Positano.JPG?raw=true' className='banner' alt='banner'></img>
-                    </section>
+                    <BannerCarousel />
                     <section className='blog-main-container'>   
                         <ArticleMain blogPosts={this.props.location.blogPosts}/>
                         <ArticleSideColumn/>

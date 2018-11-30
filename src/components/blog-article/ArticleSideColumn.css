@@ -16,4 +16,6 @@
 @media only screen and (max-width: 1200px) {
   .article-side-column-container .instagram-title {
     margin-top: 0;
-    text-align: center; } }
+    text-align: center; }
+  .article-side-column-container .instagram-follow-me {
+    padding-right: 0; } }

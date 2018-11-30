@@ -1,11 +1,5 @@
-.banner-container {
-  height: 70%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
-  .banner-container .banner {
-    width: 100%; }
+.banner-container .banner {
+  width: 100%; }
 
 .article-container .article-heading {
   margin-top: 50px;

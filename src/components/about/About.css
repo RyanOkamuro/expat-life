@@ -1,14 +1,8 @@
 .about-page {
   background: #2892D7; }
 
-.about-banner-container {
-  height: 70%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
-  .about-banner-container .about-banner {
-    width: 100%; }
+.banner-container .banner {
+  height: 100%; }
 
 .about-me {
   display: flex;

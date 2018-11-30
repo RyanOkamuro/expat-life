@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import BloggingLanding from './BloggingLanding';
+import BannerCarousel from '../banner/BannerCarousel';
 import {getAllBlogEntries} from '../../actions/blogActions';
 import {connect} from 'react-redux';
 import {withRouter} from 'react-router-dom';
@@ -20,9 +21,7 @@ class Home extends Component {
         ))
         return (
             <div className='home-page'>
-                <section className='home-banner-container'>
-                    <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Santorini/Santorini.JPG?raw=true' className='home-banner' alt='home-banner'></img>
-                </section>
+                <BannerCarousel />
                 <section className='landing-profile'>
                     <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Me/Me.jpg?raw=true' className='profile-landing-pic' alt='profile-landing-pic'></img>
                     <div className='landing-about'>
