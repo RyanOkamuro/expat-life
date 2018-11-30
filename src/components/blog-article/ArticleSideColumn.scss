@@ -2,8 +2,18 @@
     flex: 1;
     .instagram-title {
         font-weight: bold;
-        font-size: 20px;
+        font-size: 22px;
         margin-top: 80px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .article-side-column-container {
+        .instagram-title {
+            margin-top: 0;
+            text-align: center;
+        }
     }
 }

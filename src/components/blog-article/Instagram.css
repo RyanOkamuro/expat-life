@@ -1,3 +1,6 @@
+#instafeed div:nth-child(n+12) {
+  display: none; }
+
 #instafeed {
   display: flex;
   flex-wrap: wrap; }
@@ -8,6 +11,19 @@
 @media only screen and (max-width: 1200px) {
   #instafeed {
     text-align: center;
-    justify-content: space-around;
-    margin-bottom: 40px;
-    margin-top: 0; } }
+    width: 500px;
+    margin: 0 auto 20px auto; }
+  .instagram-gallery {
+    padding: 10px; } }
+
+@media only screen and (max-width: 600px) {
+  #instafeed {
+    width: 400px; }
+    #instafeed div:nth-child(n+10) {
+      display: none; } }
+
+@media only screen and (max-width: 460px) {
+  #instafeed {
+    width: 300px; }
+    #instafeed div:nth-child(n+8) {
+      display: none; } }

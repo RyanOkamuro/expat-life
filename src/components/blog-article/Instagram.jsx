@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Instafeed from 'react-instafeed'
+import Instafeed from 'react-instafeed';
 
 import './Instagram.css'
 
@@ -16,7 +16,7 @@ class Instagram extends Component {
                 target={instafeedTarget}
                 template='
                     <div class="instagram-gallery">
-                        <a href="{{link}}" title="{{caption}}" target="_blank">
+                        <a href="{{link}}" target="_blank">
                             <img src="{{image}}" width="{{width}}" height="{{height}}" alt="{{caption}}" class="instagram-image"/>
                         </a>
                     </div>'
