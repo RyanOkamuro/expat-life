@@ -31,7 +31,7 @@
   background-image: linear-gradient(#FFC522, #FF9D22, #2892D7, #8388EB);
   padding: 25px 10px 10px 10px; }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 10000px) {
   .about-me {
     width: 1170px; } }
 

@@ -1,15 +1,19 @@
 .article-side-column-container {
   flex: 1; }
-  .article-side-column-container .instagramLogo {
-    height: 50px;
-    width: 50px; }
-
-@media only screen and (max-width: 2500px) {
-  .instagramLogo {
-    display: block;
-    margin-right: auto;
-    margin-left: auto; } }
+  .article-side-column-container .instagram-title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 49px;
+    margin-bottom: 15px;
+    text-align: left; }
+  .article-side-column-container .instagram-follow-me {
+    font-size: 14px;
+    padding-right: 15px; }
+  .article-side-column-container a:hover {
+    text-decoration: none;
+    color: #8388EB; }
 
 @media only screen and (max-width: 1200px) {
-  .instagramLogo {
-    margin-bottom: 20px; } }
+  .article-side-column-container .instagram-title {
+    margin-top: 0;
+    text-align: center; } }
