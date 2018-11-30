@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import StudyAbroadPosts from './StudyAbroadPosts';
+import BannerCarousel from '../banner/BannerCarousel';
 import {getAllBlogEntries} from '../../actions/blogActions';
 import {connect} from 'react-redux';
 import {withRouter} from 'react-router-dom';
@@ -20,9 +21,7 @@ class StudyAbroad extends Component {
         ))
         return (
             <div>
-                <section className='banner-container'>
-                    <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Beijing/Study_Abroad_UIBE_Banner.JPG?raw=true' className='banner' alt='banner'></img>
-                </section>
+                <BannerCarousel />
                 <section className='article-container'>
                     <h1 className='article-heading'>Study Abroad Articles</h1>
                     <div className='blogging-articles'>

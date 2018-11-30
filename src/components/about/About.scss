@@ -4,14 +4,8 @@ $ctr: center;
     background: #2892D7;
 }
 
-.about-banner-container {
-    height: 70%;
-    background-position: $ctr;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    
-    .about-banner {
+.banner-container {    
+    .banner {
         width: 100%;
     }
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import WorkAbroadPosts from './WorkAbroadPosts';
+import BannerCarousel from '../banner/BannerCarousel';
 import {getAllBlogEntries} from '../../actions/blogActions';
 import {connect} from 'react-redux';
 import {withRouter} from 'react-router-dom';
@@ -20,9 +21,7 @@ class WorkAbroad extends Component {
         ))
         return (
             <div>
-                <section className='banner-container'>
-                    <img src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/Beijing/Paper_Factory_Banner.JPG?raw=true' className='banner' alt='banner'></img>
-                </section>
+                <BannerCarousel />
                 <section className='article-container'>
                     <h1 className='article-heading'>Work Abroad Articles</h1>
                     <div className='blogging-articles'>
