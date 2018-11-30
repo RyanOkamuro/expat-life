@@ -2,7 +2,8 @@
   padding-right: 100px;
   margin-bottom: 40px; }
   .blog-main-article .blog-header {
-    text-align: left; }
+    text-align: left;
+    font-weight: bold; }
   .blog-main-article .date-created {
     text-align: left;
     margin-top: 10px;
@@ -16,9 +17,9 @@
   .blog-main-article .blog-article-content {
     font-size: 18px; }
 
-@media only screen and (max-width: 2500px) {
+@media only screen and (max-width: 10000px) {
   .blog-main-article {
-    width: 1000px; } }
+    width: 975px; } }
 
 @media only screen and (max-width: 1200px) {
   .blog-main-article {

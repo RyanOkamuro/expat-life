@@ -5,6 +5,7 @@
 
     .blog-header {
         text-align: left;
+        font-weight: bold;
     }
 
     .date-created {
@@ -28,7 +29,7 @@
 
 @media only screen and (max-width: 10000px) {
     .blog-main-article {
-        width: 1000px;
+        width: 975px;
     }
 }
 
