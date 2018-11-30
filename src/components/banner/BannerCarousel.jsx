@@ -6,6 +6,9 @@ class BannerCarousel extends Component {
         let bannerPhotos = (
             <Carousel>
                 <Carousel.Item>
+                    <img className='banner' alt='banner' src='https://github.com/RyanOkamuro/expat-life/blob/feature/banner_carousel/public/assets/Santorini/Santorini.JPG?raw=true' />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img className='banner' alt='banner' src='https://github.com/RyanOkamuro/expat-life/blob/master/public/assets/AlmafiCoast/Positano.JPG?raw=true' />
                 </Carousel.Item>
                 <Carousel.Item>
