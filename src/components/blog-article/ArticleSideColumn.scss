@@ -3,9 +3,17 @@
     .instagram-title {
         font-weight: bold;
         font-size: 22px;
-        margin-top: 80px;
+        margin-top: 49px;
         margin-bottom: 15px;
         text-align: left;
+    }
+    .instagram-follow-me {
+        font-size: 14px;
+        padding-right: 15px;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #8388EB;
     }
 }
 
