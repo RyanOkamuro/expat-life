@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://expat-life.herokuapp.com/",
   "dependencies": {
+    "ajv": "^6.6.1",
     "enzyme": "^3.7.0",
     "event-stream": "^3.3.5",
     "jest": "^23.6.0",
@@ -18,6 +19,7 @@
     "react-instafeed": "^0.4.0",
     "react-moment": "^0.8.3",
     "react-redux": "^5.0.7",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
     "redux": "^4.0.0",
