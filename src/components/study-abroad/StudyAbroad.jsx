@@ -38,7 +38,7 @@ StudyAbroad.defaultProps = {
 };
 
 const mapStateToProps = state => ({
-    blogPosts: state.blog.allBloggingEntries
+    blogPosts: state.allBloggingEntries
 });
 
 export default withRouter(connect(mapStateToProps)(StudyAbroad));
