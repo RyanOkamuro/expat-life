@@ -1,19 +1,29 @@
 .banner-container .banner {
-  width: 100%; }
+  width: 100%;
+}
 
 .article-container .article-heading {
   margin-top: 50px;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
-  color: #055D95; }
+  color: #055D95;
+}
 
 .article-container .blogging-articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 50px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: auto;
-  flex-wrap: wrap; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 
 .article-container .blog-content {
-  text-align: center; }
+  text-align: center;
+}
+/*# sourceMappingURL=WorkAbroad.css.map */

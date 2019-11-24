@@ -1,29 +1,46 @@
 #instafeed div:nth-child(n+12) {
-  display: none; }
+  display: none;
+}
 
 #instafeed {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap; }
-  #instafeed img.instagram-image {
-    width: 75px;
-    height: 75px; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#instafeed img.instagram-image {
+  width: 75px;
+  height: 75px;
+}
 
 @media only screen and (max-width: 1200px) {
   #instafeed {
     text-align: center;
     width: 500px;
-    margin: 0 auto 20px auto; }
+    margin: 0 auto 20px auto;
+  }
   .instagram-gallery {
-    padding: 10px; } }
+    padding: 10px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   #instafeed {
-    width: 400px; }
-    #instafeed div:nth-child(n+10) {
-      display: none; } }
+    width: 400px;
+  }
+  #instafeed div:nth-child(n+10) {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 460px) {
   #instafeed {
-    width: 300px; }
-    #instafeed div:nth-child(n+8) {
-      display: none; } }
+    width: 300px;
+  }
+  #instafeed div:nth-child(n+8) {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Instagram.css.map */

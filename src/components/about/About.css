@@ -1,47 +1,72 @@
 .about-page {
-  background: #2892D7; }
+  background: #2892D7;
+}
 
 .banner-container .banner {
-  height: 100%; }
+  height: 100%;
+}
 
 .about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: auto;
-  margin-right: auto; }
-  .about-me .profile-about-pic {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    border-radius: 50px;
-    height: 300px;
-    width: 375px; }
-  .about-me .profile-about {
-    padding: 0 20px 20px 20px; }
-    .about-me .profile-about .about-bio {
-      font-size: 16px; }
+  margin-right: auto;
+}
+
+.about-me .profile-about-pic {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 50px;
+  height: 300px;
+  width: 375px;
+}
+
+.about-me .profile-about {
+  padding: 0 20px 20px 20px;
+}
+
+.about-me .profile-about .about-bio {
+  font-size: 16px;
+}
 
 .about-me-timeline {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFC522), color-stop(#FF9D22), color-stop(#2892D7), to(#8388EB));
   background-image: linear-gradient(#FFC522, #FF9D22, #2892D7, #8388EB);
-  padding: 25px 10px 10px 10px; }
+  padding: 25px 10px 10px 10px;
+}
 
 @media only screen and (max-width: 10000px) {
   .about-me {
-    width: 1170px; } }
+    width: 1170px;
+  }
+}
 
 @media only screen and (max-width: 1200px) {
   .about-me {
-    width: 970px; } }
+    width: 970px;
+  }
+}
 
 @media only screen and (max-width: 992px) {
   .about-me {
-    width: 750px; } }
+    width: 750px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   .about-me {
-    width: auto; } }
+    width: auto;
+  }
+}
 
 @media only screen and (max-width: 360px) {
   .about-me .profile-about-pic {
     height: 225px;
-    width: 300px; } }
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=About.css.map */

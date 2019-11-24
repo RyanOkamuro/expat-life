@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Instafeed from 'react-instafeed';
+// import Instafeed from 'react-instafeed';
 
 import './Instagram.css'
 
@@ -8,7 +8,7 @@ class Instagram extends Component {
         let instafeedTarget = 'instafeed';
         return (
             <div id={instafeedTarget}>
-                <Instafeed
+                {/* <Instafeed
                 limit='10'
                 ref='instafeed'
                 resolution='thumbnail'
@@ -22,7 +22,7 @@ class Instagram extends Component {
                     </div>'
                 userId={`${process.env.REACT_APP_INSTAGRAM_USER_ID}`}
                 accessToken={`${process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN}`}
-                />
+                /> */}
             </div>
         );
     }
