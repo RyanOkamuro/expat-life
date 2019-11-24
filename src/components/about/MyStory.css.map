@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,cAAc,CAAC;EACX,UAAU,EAHR,MAAM;EAIR,aAAa,EAAE,CAAC;CACnB;;AAED,AAAA,cAAc,AAAA,WAAW,CAAC;EACtB,cAAc,EAAE,IAAI;CACvB;;AAED,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC;EACP,UAAU,EAZR,MAAM;CAaX",
+    "sources": [
+        "MyStory.scss"
+    ],
+    "names": [],
+    "file": "MyStory.css"
+}

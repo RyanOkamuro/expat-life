@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACGA,AACI,iBADa,CACb,OAAO,CAAC;EACJ,KAAK,EAAE,IAAI;CACd;;AAGL,AACI,kBADc,CACd,gBAAgB,CAAC;EACb,UAAU,EAVZ,IAAI;EAWF,UAAU,EAZZ,MAAM;EAaJ,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO;CACjB;;AAPL,AASI,kBATc,CASd,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,OAAO,EAnBT,IAAI;EAoBF,eAAe,EArBjB,MAAM;EAsBJ,QAAQ,EAAE,IAAI;EACd,SAAS,EAAE,IAAI;CAClB;;AAfL,AAiBI,kBAjBc,CAiBd,aAAa,CAAC;EACV,UAAU,EA3BZ,MAAM;CA4BP",
+    "sources": [
+        "TravelAbroad.scss",
+        "../ScssToImport/_category-page-layout.scss"
+    ],
+    "names": [],
+    "file": "TravelAbroad.css"
+}
