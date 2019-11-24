@@ -1,34 +1,21 @@
 .article-side-column-container {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.article-side-column-container .instagram-title {
-  font-weight: bold;
-  font-size: 22px;
-  margin-top: 49px;
-  margin-bottom: 15px;
-  text-align: left;
-}
-
-.article-side-column-container .instagram-follow-me {
-  font-size: 14px;
-  padding-right: 15px;
-}
-
-.article-side-column-container a:hover {
-  text-decoration: none;
-  color: #8388EB;
-}
+  flex: 1; }
+  .article-side-column-container .instagram-title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 49px;
+    margin-bottom: 15px;
+    text-align: left; }
+  .article-side-column-container .instagram-follow-me {
+    font-size: 14px;
+    padding-right: 15px; }
+  .article-side-column-container a:hover {
+    text-decoration: none;
+    color: #8388EB; }
 
 @media only screen and (max-width: 1200px) {
   .article-side-column-container .instagram-title {
     margin-top: 0;
-    text-align: center;
-  }
+    text-align: center; }
   .article-side-column-container .instagram-follow-me {
-    padding-right: 0;
-  }
-}
-/*# sourceMappingURL=ArticleSideColumn.css.map */
+    padding-right: 0; } }

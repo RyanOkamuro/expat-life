@@ -1,10 +1,5 @@
 .welcome-about-heading, .about-bio {
-  color: white;
-}
+  color: white; }
 
 .profile-about {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-}
-/*# sourceMappingURL=AboutBio.css.map */
+  flex: 2; }

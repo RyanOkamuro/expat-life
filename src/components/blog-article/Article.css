@@ -1,38 +1,25 @@
 .blog-main-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   overflow: auto;
   margin-top: 40px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto;
-}
+  margin-left: auto; }
 
 @media only screen and (max-width: 2500px) {
   .blog-main-container {
-    width: 1170px;
-  }
-}
+    width: 1170px; } }
 
 @media only screen and (max-width: 1200px) {
   .blog-main-container {
-    width: 970px;
-  }
-}
+    width: 970px; } }
 
 @media only screen and (max-width: 992px) {
   .blog-main-container {
-    width: 750px;
-  }
-}
+    width: 750px; } }
 
 @media only screen and (max-width: 768px) {
   .blog-main-container {
-    width: auto;
-  }
-}
-/*# sourceMappingURL=Article.css.map */
+    width: auto; } }
