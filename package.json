@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://expat-life.herokuapp.com/",
   "dependencies": {
-    "ajv": "^6.6.1",
+    "ajv": "^6.12.3",
     "enzyme": "^3.7.0",
     "event-stream": "^3.3.5",
     "jest": "^23.6.0",
